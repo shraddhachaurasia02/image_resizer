@@ -1,0 +1,11 @@
+prefix=/Users/shraddhachaurasia/Desktop/projects/image_resizer/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/shraddhachaurasia/Desktop/projects/image_resizer/.conda/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

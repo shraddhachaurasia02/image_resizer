@@ -1,0 +1,13 @@
+prefix=/Users/shraddhachaurasia/Desktop/projects/image_resizer/.conda
+exec_prefix=/Users/shraddhachaurasia/Desktop/projects/image_resizer/.conda
+libdir=/Users/shraddhachaurasia/Desktop/projects/image_resizer/.conda/lib
+sharedlibdir=/Users/shraddhachaurasia/Desktop/projects/image_resizer/.conda/lib
+includedir=/Users/shraddhachaurasia/Desktop/projects/image_resizer/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(220, 211, 196);
+}
+
+.navcont {
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid rgb(218, 208, 193);
+    box-shadow: -10px 18px 15px 2px rgba(182, 157, 137, 0.714);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#logo {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#brand {
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(102, 65, 20);
+}
+
+#navlist {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+    font-size: large;
+}
+
+.link {
+    border: 1px solid rgb(177, 142, 52);
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: rgb(16, 16, 16);
+    color: aliceblue;
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: rgb(79, 64, 50);
+}
+
+.hero {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 23, 22);
+    font-size: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: -10px 18px 15px 2px rgba(182, 157, 137, 0.714), inset 0 0 10px rgba(255, 255, 255, 0.2);
+    height: 300px;
+    text-align: center;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.option {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 25rem;
+    margin-bottom: 10px;
+}
+
+.dropdown-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dropdown-scale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.download-container {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #090909b9;
+    width: 100%; /* Adjust to fit within container */
+    max-width: 600px; /* Optional: limits width to ensure it doesn't get too wide */
+    margin: 20px auto; /* Center the container and add vertical margin */
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-link:hover {
+    background-color: #45a049;
+}
